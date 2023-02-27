@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="584.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SeoWooJang_comp228lab5.ViewController">
+   <children>
+      <TableView fx:id="table" layoutX="14.0" layoutY="14.0" prefHeight="562.0" prefWidth="850.0">
+         <columns>
+            <TableColumn fx:id="tid" prefWidth="75.0" text="Player ID" />
+            <TableColumn fx:id="tfirst" prefWidth="75.0" text="First Name" />
+            <TableColumn fx:id="tlast" prefWidth="75.0" text="Last Name" />
+            <TableColumn fx:id="taddress" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="tpostal" prefWidth="75.0" text="Postal Code" />
+            <TableColumn fx:id="tprovince" prefWidth="75.0" text="Province" />
+            <TableColumn fx:id="tphone" prefWidth="101.5999755859375" text="Phone Number" />
+            <TableColumn fx:id="ttitle" prefWidth="95.99993896484375" text="Game Title" />
+            <TableColumn fx:id="tdate" prefWidth="85.5999755859375" text="Date Played" />
+            <TableColumn fx:id="tscore" prefWidth="115.19998779296873" text="Game Score" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SeoWooJang_comp228lab5.EditController">
+   <children>
+      <Label layoutX="109.0" layoutY="14.0" text="Player Information" />
+      <Label layoutX="36.0" layoutY="121.0" text="First Name:" />
+      <Label layoutX="36.0" layoutY="159.0" text="Last Name:" />
+      <Label layoutX="36.0" layoutY="196.0" text="Address:" />
+      <Label layoutX="33.0" layoutY="238.0" text="Postal Code:" />
+      <Label layoutX="35.0" layoutY="279.0" text="Province:" />
+      <Label layoutX="24.0" layoutY="323.0" text="Phone Number:" />
+      <TextField fx:id="first" layoutX="127.0" layoutY="117.0" />
+      <TextField fx:id="last" layoutX="127.0" layoutY="155.0" />
+      <TextField fx:id="address" layoutX="127.0" layoutY="192.0" />
+      <TextField fx:id="postal" layoutX="127.0" layoutY="234.0" />
+      <TextField fx:id="province" layoutX="127.0" layoutY="275.0" />
+      <TextField fx:id="phone" layoutX="127.0" layoutY="319.0" />
+      <Button layoutX="109.0" layoutY="375.0" mnemonicParsing="false" onAction="#updateInfo" text="Update Information" />
+      <Label layoutX="24.0" layoutY="46.0" text="Enter the Player ID:" />
+      <TextField fx:id="id" layoutX="136.0" layoutY="42.0" />
+      <Button layoutX="125.0" layoutY="78.0" mnemonicParsing="false" onAction="#findPlayer" text="Find Player" />
+      <Button layoutX="431.0" layoutY="205.0" mnemonicParsing="false" onAction="#insertGame" text="Insert Game" />
+      <Label layoutX="424.0" layoutY="14.0" text="Game Information" />
+      <Label layoutX="342.0" layoutY="46.0" text="Game Title:" />
+      <TextField fx:id="gtitle" layoutX="454.0" layoutY="42.0" />
+      <Label layoutX="342.0" layoutY="95.0" text="Game Score:" />
+      <TextField fx:id="gscore" layoutX="454.0" layoutY="91.0" />
+      <Label layoutX="342.0" layoutY="131.0" prefHeight="56.0" prefWidth="101.0" text="Date Played DD-MONTH-YYYY" textOverrun="WORD_ELLIPSIS" wrapText="true" />
+      <TextField fx:id="gdate" layoutX="454.0" layoutY="143.0" />
+
+      <Label layoutX="342.0" layoutY="155.0" prefHeight="56.0" text="Game ID: "/>
+      <TextField fx:id="gid" layoutX="454.0" layoutY="167.0" />
+
+      <Button layoutX="471.0" layoutY="375.0" mnemonicParsing="false" onAction="#goBack" text="Go Back" />
+   </children>
+</Pane>
